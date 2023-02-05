@@ -1,6 +1,6 @@
 /*
   COLORS:
-  dark purple: #43192d
+  dark purple: #10afe8
   light 'gray': #684d46
   white: #fff
   pink: #e9488a
@@ -19,18 +19,18 @@
   --primary-bgopp: #000;
   --secondary-bg: url(./bg.png);
 
-  --avatar-bg: #43192d00;
-  --avatar-bo: #43192d;
-  --handle-text: #43192d;
+  --avatar-bg: #10afe800;
+  --avatar-bo: #10afe8;
+  --handle-text: #10afe8;
 
-  --textbob-font: #43192d;
-  --textbob-bo: #43192d;
+  --textbob-font: #10afe8;
+  --textbob-bo: #10afe8;
   --textbob-bg: #fff;
 
   --textbox-bg: #fff;
-  --textbox-bo: #43192d;
+  --textbox-bo: #10afe8;
 
-  --mainlink-bo: #43192d;
+  --mainlink-bo: #10afe8;
   --mainlink-bg: #fff;
   --mainlink-text: #684d46;
   --mainlink-activebg: #e99048;
@@ -38,7 +38,7 @@
 
   --mediabuttons-bg: #f1f1f1;
   --mediabuttons-shadow: #00000070;
-  --mediabuttons-icon: #43192d;
+  --mediabuttons-icon: #10afe8;
 
   --secondary-color: #536390;
   --font-color: #424242;
@@ -534,13 +534,13 @@ body {
   display: inline;
   position: absolute;
   background-color: #ffffff;
-  color: #43192d;
+  color: #10afe8;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   border-radius: 2px;
-  -webkit-box-shadow: 0 0 60px 4px #43192d;
-  -moz-box-shadow: 0 0 60px 4px #43192d;
-  box-shadow: 0 0 60px 4px #43192d;
+  -webkit-box-shadow: 0 0 60px 4px #10afe8;
+  -moz-box-shadow: 0 0 60px 4px #10afe8;
+  box-shadow: 0 0 60px 4px #10afe8;
   -webkit-animation: animate-rotate-x 1s ease infinite;
   -moz-animation: animate-rotate-x 1s ease infinite;
   animation: animate-rotate-x 1s ease infinite;
