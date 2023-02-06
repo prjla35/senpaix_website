@@ -48,7 +48,7 @@
 
 [data-theme="dark"] {
   --primary-bg: #4b00ad;
-  --primary-bgopp: #3d3232;
+  --primary-bgopp: #fff;
   --secondary-bg: url(./bg2.png);
 
   --avatar-bg: #000a03dc;
