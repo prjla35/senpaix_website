@@ -15,30 +15,30 @@
 }
 
 :root {
-  --primary-bg: #fff;
+  --primary-bg: #00ffdd6e;
   --primary-bgopp: #000;
   --secondary-bg: url(./bg.png);
 
   --avatar-bg: #10afe800;
-  --avatar-bo: #10afe8;
+  --avatar-bo: #037503;
   --handle-text: #10afe8;
 
-  --textbob-font: #10afe8;
-  --textbob-bo: #10afe8;
+  --textbob-font: #000000;
+  --textbob-bo: #037503;
   --textbob-bg: #fff;
 
   --textbox-bg: #fff;
   --textbox-bo: #10afe8;
 
-  --mainlink-bo: #10afe8;
+  --mainlink-bo: #082700;
   --mainlink-bg: #fff;
-  --mainlink-text: #684d46;
-  --mainlink-activebg: #e99048;
+  --mainlink-text: #000000;
+  --mainlink-activebg: #6200ff;
   --mainlink-activetext: #fff;
 
-  --mediabuttons-bg: #f1f1f1;
+  --mediabuttons-bg: #000000;
   --mediabuttons-shadow: #00000070;
-  --mediabuttons-icon: #10afe8;
+  --mediabuttons-icon: #00ff4c;
 
   --secondary-color: #536390;
   --font-color: #424242;
@@ -47,11 +47,11 @@
 }
 
 [data-theme="dark"] {
-  --primary-bg: #000;
+  --primary-bg: #4b00ad;
   --primary-bgopp: #fff;
   --secondary-bg: url(./bg2.png);
 
-  --avatar-bg: #8fcc6c00;
+  --avatar-bg: #000a03dc;
   --avatar-bo: #8fcc6c;
   --handle-text: #ff8888;
 
@@ -60,7 +60,7 @@
   --textbob-bg: #424242;
 
   --textbox-bg: rgb(0, 0, 0);
-  --textbox-bo: #ff8888;
+  --textbox-bo: #0077ff;
 
   --mainlink-bo: #d1cf70;
   --mainlink-bg: #292922;
@@ -70,7 +70,7 @@
 
   --mediabuttons-bg: #000;
   --mediabuttons-shadow: #ffffff70;
-  --mediabuttons-icon: #ff8888;
+  --mediabuttons-icon: #88ffe5;
 
   --secondary-color: #536390;
   --font-color: #424242;
@@ -83,7 +83,7 @@
   height: 12px;
 }
 ::-webkit-scrollbar-track {
-  background-color: #a43f49;
+  background-color: #000000;
 }
 ::-webkit-scrollbar-thumb {
   height: 200px;
@@ -353,23 +353,27 @@ body {
 }
 
 .links-container li.right a {
-  transform: skew(20deg);
+  transform: skew(0deg);
   display: block;
+  border-radius: 20%;
 }
 
 .links-container li.right {
-  transform: skew(-20deg);
-  animation: slide-in-right 0.9s ease backwards;
+  transform: skew(0deg);
+  animation: slide-in-right 0.9s ease-in;
+  border-radius: 20%;
 }
 
 .links-container li.left a {
-  transform: skew(-20deg);
+  transform: skew(0deg);
   display: block;
+  border-radius: 20%;
 }
 
 .links-container li.left {
-  transform: skew(20deg);
-  animation: slide-in-left 0.9s ease backwards;
+  transform: skew(0deg);
+  animation: slide-in-left 0.9s ease-in;
+  border-radius: 20%;
 }
 
 .links-container a:link,
