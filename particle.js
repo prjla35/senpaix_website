@@ -9,13 +9,13 @@ particlesJS("particles-js", {
         }
       },
       "color": {
-        "value": "#ffffff"
+        "value": "#fa0505"
       },
       "shape": {
         "type": "square",
         "stroke": {
           "width": 1,
-          "color": "#ffffff"
+          "color": "#fa0505"
         },
         "polygon": {
           "nb_sides": 5
@@ -37,7 +37,7 @@ particlesJS("particles-js", {
         }
       },
       "size": {
-        "value": 3,
+        "value": 5,
         "random": true,
         "anim": {
           "enable": true,
@@ -49,20 +49,20 @@ particlesJS("particles-js", {
       "line_linked": {
         "enable": true,
         "distance": 150,
-        "color": "#000000",
-        "opacity": 1,
+        "color": "#FF0000",
+        "opacity": 4,
         "width": 1
       },
       "move": {
         "enable": true,
-        "speed": 3,
+        "speed": 9,
         "direction": "none",
-        "random": false,
+        "random": true,
         "straight": false,
         "out_mode": "out",
-        "bounce": false,
+        "bounce": true,
         "attract": {
-          "enable": false,
+          "enable": true,
           "rotateX": 600,
           "rotateY": 1200
         }
@@ -73,26 +73,28 @@ particlesJS("particles-js", {
       "events": {
         "onhover": {
           "enable": false,
-          "mode": "repulse"
+          "rotateX": 600,
+          "rotateY": 1200
         },
         "onclick": {
-          "enable": false,
-          "mode": "push"
+          "enable": true,
+          "mode": "repulse"
+
         },
-        "resize": false
+        "resize": true
       },
       "modes": {
         "grab": {
-          "distance": 400,
+          "distance": 100,
           "line_linked": {
-            "opacity": 1
+            "opacity": 5
           }
         },
         "bubble": {
-          "distance": 400,
-          "size": 40,
+          "distance": 405,
+          "size": 60,
           "duration": 2,
-          "opacity": 8,
+          "opacity": 10,
           "speed": 3
         },
         "repulse": {
