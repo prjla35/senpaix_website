@@ -29,12 +29,15 @@ jobs:
         with:
           source: ./
           destination: ./_site
-      - name: Preload upload-artifact
+
+      # Workaround step to force preloading of upload-artifact@v3
+      - name: Preload upload-artifact@v3
         uses: actions/upload-artifact@v3
         with:
-          name: dummy
+          name: preload
           path: README.md
         continue-on-error: true
+
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v2
         with:
