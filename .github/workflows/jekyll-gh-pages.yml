@@ -29,7 +29,12 @@ jobs:
         with:
           source: ./
           destination: ./_site
-
+      - name: Preload upload-artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: dummy
+          path: README.md
+        continue-on-error: true
       - name: Upload Artifact
         uses: actions/upload-pages-artifact@v2
         with:
